@@ -50,10 +50,18 @@ h3 {
 ul {
   list-style: var(--none-list-bullets);
 }
+a.current {
+  color: #404bbf;
+}
 .contact-info a {
   color: var(--primary-color);
   text-decoration: var(--none-text-decoration);
 }
+.contact-info .email:hover,
+.contact-info .email:focus {
+  color: #404bbf;
+}
+
 .contact-info {
   font-size: var(--font-size-sixteen);
   line-height: var(--line-height-one-half);
@@ -61,8 +69,6 @@ ul {
 }
 
 .logo span {
-  /* width: 44px;
-  height: 24px; */
   font-weight: 800;
   color: var(--bg-blue-color);
 }
@@ -86,6 +92,11 @@ h1 {
   background: var(--bg-blue-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.section-one .btn:hover,
+.section-one .btn:focus {
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .section-one .btn span {
@@ -121,4 +132,14 @@ footer,
 }
 .section-three {
   background: var(--bg-blue-gray);
+}
+
+/* portfolio page - filter buttons */
+
+.btn-filter:hover,
+.btn-filter:focus {
+  background: #404bbf;
+}
+.btn-filter {
+  background: #f4f4fd;
 }
