@@ -63,8 +63,8 @@ a.current {
   color: var(--primary-color);
   text-decoration: var(--none-text-decoration);
 }
-.contact-info .email:hover,
-.contact-info .email:focus {
+.contact-info .contact-item:hover,
+.contact-info .contact-item:focus {
   color: #404bbf;
 }
 
@@ -138,22 +138,24 @@ footer,
 .btn-filter:hover,
 .btn-filter:focus {
   background: #404bbf;
+  color: #ffffff;
 }
 .btn-filter {
   background: #f4f4fd;
+  color: #4d5ae5;
 }
 .project-list a {
   text-decoration: var(--none-text-decoration);
   color: var(--brand-primary-fonts);
 }
 .project-card:hover .img-description,
-.project-card:focus .img-description{
+.project-card:focus .img-description {
   background: #4d5ae5;
   background-blend-mode: soft-light;
   mix-blend-mode: normal;
   visibility: visible;
 }
-.img-description{
+.img-description {
   visibility: hidden;
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
