@@ -9,8 +9,8 @@
   --bg-white-color: #ffffff;
   --bg-blue-color: #4d5ae5;
   --bg-blue-gray: #f4f4fd;
-  --font-size-sixteen: 16px;
-  --line-height-one-half: 1.5;
+  --font-size-primary: 16px;
+  --line-height-primary: 1.5;
 }
 body {
   font-family: var(--brand-primary-fonts);
@@ -36,7 +36,7 @@ h3 {
   line-height: 1.2;
 }
 p {
-  font-size: var(--font-size-sixteen);
+  font-size: var(--font-size-primary);
   line-height: var(--line-height-one-half);
 }
 /* header section */
@@ -72,7 +72,7 @@ a.current {
 }
 
 .contact-info {
-  font-size: var(--font-size-sixteen);
+  font-size: var(--font-size-primary);
   line-height: var(--line-height-one-half);
   letter-spacing: 0.02em;
 }
@@ -105,7 +105,7 @@ h1 {
 
 .section-one .btn span {
   font-weight: 500;
-  font-size: var(--font-size-sixteen);
+  font-size: var(--font-size-primary);
   line-height: var(--line-height-one-half);
   letter-spacing: 0.04em;
   color: var(--bg-white-color);
