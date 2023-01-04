@@ -16,6 +16,9 @@ body {
   font-family: var(--brand-primary-fonts);
   color: var(--primary-color);
 }
+button {
+  cursor: pointer;
+}
 
 /* title's color */
 h2,
