@@ -142,7 +142,18 @@ footer,
 .btn-filter {
   background: #f4f4fd;
 }
-.gallery-list a {
+.project-list a {
   text-decoration: var(--none-text-decoration);
   color: var(--brand-primary-fonts);
+}
+.project-card:hover .img-description,
+.project-card:focus .img-description{
+  background: #4d5ae5;
+  background-blend-mode: soft-light;
+  mix-blend-mode: normal;
+  visibility: visible;
+}
+.img-description{
+  visibility: hidden;
+  color: #F4F4FD;
 }
