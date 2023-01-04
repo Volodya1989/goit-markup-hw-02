@@ -41,7 +41,7 @@ p {
   line-height: var(--line-height-primary);
 }
 /* header section */
-.logo {
+.header a.logo {
   font-family: var(--brand-secondary-fonts);
   font-size: 18px;
   line-height: 1.33;
@@ -49,6 +49,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .header a,
 .navigation a {
   text-decoration: var(--none-text-decoration);
@@ -71,7 +72,11 @@ a.current {
   text-decoration: var(--none-text-decoration);
 }
 .contact-info .contact-item:hover,
-.contact-info .contact-item:focus {
+.contact-info .contact-item:focus,
+a.logo:hover,
+a.logo:focus,
+.navigation a:hover,
+.navigation a:focus {
   color: var(--bg-ocean-color);
 }
 
