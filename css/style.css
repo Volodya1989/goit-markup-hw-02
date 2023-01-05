@@ -17,8 +17,9 @@ body {
   font-family: var(--brand-primary-fonts);
   color: var(--primary-color);
 }
-button {
+.button {
   cursor: pointer;
+  border:none;
 }
 
 /* title's color */
@@ -48,6 +49,11 @@ p {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--bg-iris-color);
+}
+
+a.logo .logo-header {
+  color: var(--primary-color);
 }
 
 .header a,
@@ -73,8 +79,6 @@ a.current {
 }
 .contact-info .contact-item:hover,
 .contact-info .contact-item:focus,
-a.logo:hover,
-a.logo:focus,
 .navigation a:hover,
 .navigation a:focus {
   color: var(--bg-ocean-color);
@@ -84,10 +88,6 @@ a.logo:focus,
   font-size: var(--font-size-primary);
   line-height: var(--line-height-primary);
   letter-spacing: 0.02em;
-}
-
-.logo span {
-  color: var(--bg-iris-color);
 }
 
 /* index page main section */
@@ -124,9 +124,12 @@ h1 {
   font-family: var(--brand-secondary-fonts);
   height: 22px;
   line-height: 1.17;
-  color: var(--bg-cloud-color);
   text-decoration: var(--none-text-decoration);
   font-weight: 800;
+  color: var(--bg-iris-color);
+}
+.logo-footer {
+  color: var(--bg-cloud-color);
 }
 
 .footer p {
@@ -157,14 +160,8 @@ footer,
   text-decoration: var(--none-text-decoration);
   color: var(--brand-primary-fonts);
 }
-.project-card:hover .img-description,
-.project-card:focus .img-description {
-  background: var(--bg-iris-color);
+.project-card:hover,
+.project-card:focus {
   background-blend-mode: soft-light;
   mix-blend-mode: normal;
-  visibility: visible;
-}
-.img-description {
-  visibility: hidden;
-  color: var(--bg-cloud-color);
 }
