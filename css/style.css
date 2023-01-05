@@ -19,20 +19,19 @@ body {
 }
 .button {
   cursor: pointer;
-  border:none;
+  border: none;
 }
 
 /* title's color */
-h2,
-h3,
-h4 {
+.title,
+.sub-title {
   color: var(--secondary-color);
 }
-h1,
-h2 {
+.main-title,
+.title {
   font-weight: 700;
 }
-h3 {
+.sub-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -92,8 +91,7 @@ a.current {
 
 /* index page main section */
 
-h1 {
-  font-weight: 700;
+.main-title {
   font-size: 56px;
   line-height: 1.01;
   text-align: center;
