@@ -41,15 +41,12 @@ body {
 }
 
 .sub-title,
-.project-list .title {
+.prj-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
-p {
-  font-size: var(--font-size-primary);
-  line-height: var(--line-height-primary);
-}
+
 /* header section */
 .header a.logo {
   font-weight: 800;
@@ -61,42 +58,28 @@ p {
   color: var(--bg-iris-color);
 }
 
-a.logo .logo-header {
-  color: var(--primary-color);
-}
-
-.header a,
-.navigation a {
-  text-decoration: var(--none-text-decoration);
-  color: var(--primary-color);
-  font-size: var(--font-size-primary);
-  line-height: var(--line-height-primary);
-}
-.navigation a {
-  font-weight: 500;
-}
-
-ul {
+.list {
   list-style: var(--none-list-bullets);
 }
 a.current {
   color: var(--bg-ocean-color);
 }
-.contact-info a {
-  color: var(--primary-color);
+.link {
   text-decoration: var(--none-text-decoration);
+  color: var(--primary-color);
 }
-.contact-info .contact-item:hover,
-.contact-info .contact-item:focus,
-.navigation a:hover,
-.navigation a:focus {
-  color: var(--bg-ocean-color);
+.nav-link {
+  color: var(--secondary-color);
+  font-weight: 500;
 }
 
-.contact-info {
-  font-size: var(--font-size-primary);
-  line-height: var(--line-height-primary);
-  letter-spacing: 0.02em;
+a.logo .logo-header {
+  color: var(--primary-color);
+}
+
+.header-links:hover,
+.header-links:focus{
+  color: var(--bg-ocean-color);
 }
 
 /* index page main section */
@@ -105,7 +88,6 @@ a.current {
   font-size: 56px;
   line-height: 1.01;
   text-align: center;
-  letter-spacing: 0.02em;
   color: var(--bg-white-color);
 }
 .btn-order {
@@ -114,8 +96,8 @@ a.current {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.section-one .btn-order:hover,
-.section-one .btn-order:focus {
+.btn-order:hover,
+.btn-order:focus {
   background: var(--bg-ocean-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -125,7 +107,6 @@ a.current {
   font-family: var(--brand-secondary-fonts);
   height: 22px;
   line-height: 1.17;
-  text-decoration: var(--none-text-decoration);
   font-weight: 800;
   color: var(--bg-iris-color);
 }
@@ -134,7 +115,6 @@ a.current {
 }
 
 .footer p {
-  letter-spacing: 0.02em;
   color: #e7e9fc;
 }
 
@@ -157,10 +137,7 @@ footer,
   background: var(--bg-cloud-color);
   color: var(--bg-iris-color);
 }
-.project-list a {
-  text-decoration: var(--none-text-decoration);
-  color: var(--brand-primary-fonts);
-}
+
 .project-card:hover,
 .project-card:focus {
   background-blend-mode: soft-light;
