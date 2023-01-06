@@ -73,8 +73,8 @@ a.current {
   font-weight: 500;
 }
 
-a.logo .logo-header {
-  color: var(--primary-color);
+.logo-header {
+  color: var(--secondary-color);
 }
 
 .header-links:hover,
